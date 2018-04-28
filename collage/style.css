@@ -1,0 +1,31 @@
+body, html{
+  margin: 0;
+  padding: 0;
+
+}
+
+div {
+  width: 33.33%;
+  height: 300px;
+  float: left;
+  background-color: rgb(11, 128, 135);
+}
+
+/*  poner imagenes a un tamaño ajustable ajustamos al 100 para que no se ajuste al 30%*/
+div > img {
+  display: block;
+  width: 100%
+
+}
+.uno{
+  width: 25%;
+  background-color: rgb(73, 66, 204);
+}
+.dos{
+  width: 35%;
+  background-color: rgb(141, 115, 184);
+}
+.tres{
+  width: 40%;
+  background-color: rgb(51, 108, 140);
+}
